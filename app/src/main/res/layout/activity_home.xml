@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bendera"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.linearlayout.id.mamat.Home">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Linear Layout Sederhana"
+            android:id="@+id/LinearLayout">
+        </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Linear Layout Relative"
+            android:id="@+id/RelativeLayoutSederhana">
+        </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#CC33FF"
+            android:text="Linear Layout Table"
+            android:id="@+id/LayoutTable">
+        </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#CC33FF"
+            android:text="Menampilkan Gambar Android"
+            android:id="@+id/MenampilkanGambar">
+        </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Teks Autocomplete"
+            android:id="@+id/AutoCompleteSederhana">
+        </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Kotak Dialog"
+            android:id="@+id/KotakDialog">
+        </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Picker"
+            android:id="@+id/picker">
+        </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="CheckBox"
+            android:id="@+id/checkbox">
+        </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Radio Button"
+            android:id="@+id/RadioButton">
+        </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Selection Widget"
+            android:id="@+id/MengenalSelectionSederhana">
+        </Button>
+
+        <Button
+        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+        android:text="Service Sederhana"
+        android:id="@+id/CallActivity">
+    </Button>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Nyetel Musik"
+            android:id="@+id/playingAudio">
+        </Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Kalkulator Montok"
+            android:id="@+id/kalkulatormontok">
+        </Button>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#CC33FF"
+            android:text="Web View"
+            android:id="@+id/webview">
+        </Button>
+    </LinearLayout>
+</ScrollView>

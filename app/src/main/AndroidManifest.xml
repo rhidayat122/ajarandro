@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="assalaam.linearlayout.id.mamat"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LinearLayout" />
+        <activity android:name=".RelativeLayoutSederhana" />
+        <activity
+            android:name=".LayoutTable"
+            android:label="@string/title_activity_layout_table" />
+        <activity
+            android:name=".MenampilkanGambar"
+            android:label="@string/title_activity_menampilkan_gambar" />
+        <activity android:name=".AutocompleteSederhana" />
+        <activity
+            android:name=".KotakDialog"
+            android:label="@string/title_activity_kotak_dialog" />
+        <activity
+            android:name=".RadioButton"
+            android:label="@string/title_activity_radio_button" />
+        <activity
+            android:name=".picker"
+            android:label="@string/title_activity_picker" />
+        <activity
+            android:name=".checkbox"
+            android:label="@string/title_activity_checkbox" />
+        <activity android:name=".CallActivity" />
+        <activity android:name=".CallActivity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN2" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MengenalSelectionWidget"
+            android:label="@string/title_activity_mengenal_selection_widget" />
+        <activity
+            android:name=".Home"
+            android:label="Rahmat App" />
+        <activity
+            android:name=".playingAudio"
+            android:label="@string/title_activity_playing_audio" />
+        <activity
+            android:name=".plas"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".kalkulatormontok"
+            android:label="@string/title_activity_kslkulator" />
+
+        <activity android:name=".WView"></activity>
+    </application>
+
+</manifest>

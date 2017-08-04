@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Trus yang ini activity-2" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Kembali"
+        android:id="@+id/Button02"
+        android:textSize="18px" >
+    </Button>
+
+</LinearLayout>

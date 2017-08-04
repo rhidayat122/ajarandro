@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mamat</string>
+    <string name="title_activity_layout_tabel">LayoutTabel</string>
+    <string name="title_activity_layout_table">LayoutTable</string>
+    <string name="title_activity_menampilkan_gambar">MenampilkanGambar</string>
+    <string name="title_activity_autocomplete_sederhana">AutocompleteSederhana</string>
+    <string name="perintah">Masukkan minimal 3 huruf</string>
+    <string name="title_activity_kotak_dialog">Kotak Dialog</string>
+    <string name="hello">Hello Wolrd, kotakDialog!</string>
+    <string name="toastTextBtn">Panggil Toast</string>
+    <string name="exitTextBtn">Keluar Aplikasi</string>
+    <string name="listDialogTextBtn">Panggil List Dialog</string>
+    <string name="title_activity_radio_button">Radio Button</string>
+    <string name="title_activity_picker">picker</string>
+    <string name="title_activity_checkbox">checkbox</string>
+    <string name="checkBox">checkbox ini ; Tidak Dicentang !</string>
+    <string name="title_activity_mengenal_selection_widget">Mengenal Selection Widget</string>
+    <string name="title_activity_home">Hone</string>
+    <string name="title_activity_playing_audio">playingAudio</string>
+    <string name="title_activity_plas">plas</string>
+    <string name="title_activity_kslkulator">Kalkulator Montok</string>
+</resources>
